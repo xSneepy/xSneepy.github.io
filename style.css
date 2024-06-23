@@ -99,4 +99,17 @@ li
 	font-size: 20px;
 }
 
+.container1
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
 
+.container1>div
+{
+  height: 200px;
+  background-color: rgb(192, 112, 112);
+  width: 50%;
+}
