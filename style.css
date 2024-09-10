@@ -113,3 +113,21 @@ li
   background-color: rgb(192, 112, 112);
   width: 50%;
 }
+
+.mainContent
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.contentContainer
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.contentContainer > .description
+{
+  /* text-align: center; */
+  align-self: center;
+}
