@@ -131,3 +131,8 @@ li
   /* text-align: center; */
   align-self: center;
 }
+
+.contentContainer > .image
+{
+  margin: 0 auto;
+}
