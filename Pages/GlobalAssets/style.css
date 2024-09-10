@@ -1,0 +1,103 @@
+body
+{
+    background-color: #252525;
+    color: white;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.navContainer
+{
+    background-color: #505050;
+    display: flex;
+    justify-content: space-between;
+    min-height: 5vh;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navContainer>div
+{
+    margin-left: 30px;
+    color: #1CACE3;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-right: 30px;
+    border: 3px solid white;
+    border-radius: 10px;
+    min-width: 100px;
+    min-height: 25px;
+    max-height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    transition: min-width 0.5s ease-in-out,
+    color 0.5s ease-in-out;
+}
+
+.navContainer>div:hover
+{
+    color: #71FDFD;
+    min-width: 125px;
+}
+
+p
+{
+    align-self: center;
+    margin: 0;
+}
+
+.navBTNContainer
+{
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: #505050;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: black solid 5px;
+    border-top-width: 0;
+    cursor: pointer;
+}
+
+.navBTNContainer>p
+{
+    padding-top: 5px;
+}
+
+.navContainer>img
+{
+    width: 50px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.navContainer>img:hover
+{
+    transform: rotate(180deg);
+}
+
+#container
+{
+    position: absolute;
+    top: -50px;
+    right: 0;
+    left: 0;
+    transition: top 1s ease-in-out;
+}
+
+#container.active
+{
+    top: 0px;
+}
+
+nav
+{
+    margin-bottom: 100px;
+}
